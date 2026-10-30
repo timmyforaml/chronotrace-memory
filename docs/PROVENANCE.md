@@ -2,7 +2,7 @@
 
 ## 本项目
 
-ChronoTrace Memory v0.1.0 源自独立状态生命周期研究。发布版内核 `src/chronotrace_memory/lifecycle.py` 保留冻结实现，SHA-256：
+ChronoTrace Memory v0.1.1 源自独立状态生命周期研究。发布版内核 `src/chronotrace_memory/lifecycle.py` 保留冻结实现，SHA-256：
 
 `46be8945a381553fcb42e02ab631fdb890976fb8e0fe66ef3313aace5e4abcd5`
 
@@ -28,4 +28,6 @@ ChronoTrace Memory v0.1.0 源自独立状态生命周期研究。发布版内核
 
 ## 原始材料保护
 
-公开仓库仅包含自行实现的代码、纯合成例子及必要聚合结果。没有发布原始对话、评测题目/提示、参考答案、模型响应、数据库、模型权重、认证信息或旧运行日志。原研究的冻结文件不因公开包装而被修改。SHA-256清单见 [source-manifest.json](source-manifest.json)。
+公开仓库仅包含自行实现的代码、纯合成例子及必要聚合结果。没有发布原始对话、评测题目/提示、参考答案、模型响应、数据库、模型权重、认证信息或旧运行日志。原研究的冻结文件不因公开包装而被修改。SHA-256清单见 [source-manifest.json](source-manifest.json)，以提交中的UTF-8/LF文件字节为准，清单本身不递归包含自身。
+
+v0.1.0清单曾按Windows工作目录字节生成，Git换行归一化后部分非内核文件哈希不一致；v0.1.1统一LF并修复清单。初始版本和修复记录均保留，内核散列与冻结评分没有变化。

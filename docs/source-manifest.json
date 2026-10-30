@@ -1,93 +1,93 @@
 {
   "system": "ChronoTrace Memory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "frozen_core_sha256": "46be8945a381553fcb42e02ab631fdb890976fb8e0fe66ef3313aace5e4abcd5",
   "original_test_sha256": "aa8a166240d089cdb87c1d9d06c0e8271b0decf23ce7c0c031ff9a6b2ab4fb58",
   "release_files": {
     ".gitattributes": {
-      "bytes": 108,
-      "sha256": "58070a4c99b6aec0e020ded17b2337ef9ee880a526210a7bfa7c4f23a5fb7b20"
+      "bytes": 102,
+      "sha256": "95ad2c1af788bbcbde1d79c87942e2257a1939105a308200f80216c2b45a65ba"
     },
     ".github/workflows/tests.yml": {
-      "bytes": 490,
-      "sha256": "5ef4071f71bae21faafe1b32a8c1714553604d74d6f539fd822b5015d50f9cb6"
+      "bytes": 472,
+      "sha256": "71ee4f0b46b1388359186df03ea8d6ade98ddc4446079c541c0d7ea524de86c2"
     },
     ".gitignore": {
-      "bytes": 271,
-      "sha256": "8f598eee3711ec2ceb8083c1f5e1fa6ce95a47cf11f0e2edd6327cebab6cc92f"
+      "bytes": 244,
+      "sha256": "876bfda3bcbe3a26d041e9cf1c39416eec31354a773550d036887e16fc0a7fd0"
     },
     "CHANGELOG.md": {
-      "bytes": 642,
-      "sha256": "a0ad6acfd389e51c1f014cb878447f0a22c388c5f3f0dcaeb77be1673e8e1810"
+      "bytes": 898,
+      "sha256": "50ef512b2134ad447a6796b83a1927bf02d4ab32c97a2407d823524cb16e005f"
     },
     "LICENSE": {
-      "bytes": 1109,
-      "sha256": "65b5abd136cd2cbc20e3b9019aba3de4002f0a2d5f815dbc87d9406e8b6a585f"
+      "bytes": 1088,
+      "sha256": "8e0364ea0341fdcc763f8c1238c9d43014be69d2f424949608e91a72ce919d2f"
     },
     "README.md": {
-      "bytes": 4214,
-      "sha256": "5398504ef02b707e7690aa981272629d719837172b1459440b1e38894c0d61b9"
+      "bytes": 4155,
+      "sha256": "5376c85c993a830b0fe19ef4e49ab5cc1a6f9f88032e6604c55dab991717a1a6"
     },
     "docs/COMMIT_AND_RUN_GUIDE.md": {
-      "bytes": 1540,
-      "sha256": "e430eafe27788da18f5a99146a81e66b8fa4b7ad27e870852010b6d5a413aea4"
+      "bytes": 1611,
+      "sha256": "5e64916105fa4f95cb062e2555fb7d60a41807ccc6582ed771b92b34ea25e653"
     },
     "docs/PROVENANCE.md": {
-      "bytes": 2415,
-      "sha256": "b76c8916ab26ad886abb3fdb99f813370ceda6af445b34858bbd2d58cdd7c49c"
+      "bytes": 2691,
+      "sha256": "220338742570122272fe3317ff1361481a22d2cf633656244f61778b0bb3c996"
     },
     "docs/RESEARCH_RESULTS.md": {
-      "bytes": 2741,
-      "sha256": "76d1f4ea0169f391adcfaa98156f9d27b56889c11031431e3e77acd3792a0f3f"
+      "bytes": 2716,
+      "sha256": "7e023c2e980e63aa4262248a76888507465c26295b0144a31ca988c1b3ec8e7f"
     },
     "docs/USER_GUIDE.md": {
-      "bytes": 7449,
-      "sha256": "8f1b7cb88e895517f64014c13d091e0bfe953b61c5e3ed796401ccd5cce168e6"
+      "bytes": 7319,
+      "sha256": "a8c7f883fc0b0d3ccb78cc824895b7516e6b69340eff0a4ab459dcb57d50d427"
     },
     "docs/VALIDATION.md": {
-      "bytes": 1090,
-      "sha256": "b1b70c58c7d236b67cd1752c13356197d320bdd37f40846ee7a8a3200e9c5e20"
+      "bytes": 1325,
+      "sha256": "93d79bb73a6c145d2f1af9dad1b5f2371b329dc9c014ba2c86e7483f4e266835"
     },
     "examples/alice.json": {
-      "bytes": 2984,
-      "sha256": "4c9430f10f94309c35f76d96330243ad6a62cccc1bad3cd89113cf1d765461ba"
+      "bytes": 2873,
+      "sha256": "880fc7db56916313c76d510723db2831564d6a39c29dd5d41de56976f697d865"
     },
     "examples/demo.py": {
-      "bytes": 1363,
-      "sha256": "a5af6f8c40bd5cc4d29790ecace24924d051cad75cfc7e7596c67a1891495a1a"
+      "bytes": 1342,
+      "sha256": "8cf56cf5952894ce91ff1356e8c820ae3389f6cd1108e882f7cbcff318d07fad"
     },
     "pyproject.toml": {
-      "bytes": 939,
-      "sha256": "827a735a0bddc6c126128c37f72882ea3fdf71709fc12eefc9712546a1cc621c"
+      "bytes": 909,
+      "sha256": "fae2328b22de5a39471174f98077677755b819b3b4b5f23f9e9eb038b1369f64"
     },
     "src/chronotrace_memory/__init__.py": {
-      "bytes": 303,
-      "sha256": "245a5bfcd1d8c28b63a2da1a031da94deda565fe74cc5a2300ff3c2fb7fae5ae"
+      "bytes": 296,
+      "sha256": "db364e69cf71ca3432966eb851de2fa24dac6188a1f00e2f956c41ba9b6d93aa"
     },
     "src/chronotrace_memory/__main__.py": {
-      "bytes": 51,
-      "sha256": "482b8693e2fe6dbd732e3d7961e03827d3efa187bad11d29da188be580ebbeea"
+      "bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
     },
     "src/chronotrace_memory/api.py": {
-      "bytes": 6450,
-      "sha256": "59db3aaeb84dd1bb7537dfde28d11bd79da305c07727098cb179f642c117c8ab"
+      "bytes": 6331,
+      "sha256": "7304e01bd139263f2d345ee03c0f50704fbfaf20b0dc388b8c384d6cbc78b74d"
     },
     "src/chronotrace_memory/cli.py": {
-      "bytes": 2180,
-      "sha256": "6cf11d89672b3c45f2027865855a88eb2b5e14b1e6bb1c47056d00d18f5437d8"
+      "bytes": 2143,
+      "sha256": "336765b3fe0645f13b7acc0c3d1470840c85cbdde964f151050ed583b37b94d7"
     },
     "src/chronotrace_memory/lifecycle.py": {
       "bytes": 16301,
       "sha256": "46be8945a381553fcb42e02ab631fdb890976fb8e0fe66ef3313aace5e4abcd5"
     },
     "tests/test_api.py": {
-      "bytes": 4316,
-      "sha256": "9df2195161e9ab8ecfaf3001707486d1fb9312d43eb90b19bbc2c2990680163e"
+      "bytes": 4221,
+      "sha256": "6f6d8c86809f678df3c95113a457ad3bbb0bfbf7b4fbf3403b14976a0750fe79"
     },
     "tests/test_lifecycle.py": {
-      "bytes": 7944,
-      "sha256": "60e29599121494b928c72d0998c41219ae6209bf30f777d7378e1826808f3dbf"
+      "bytes": 7794,
+      "sha256": "323cf333cb81001819caf314cfa9ddc29608e3a01b350b977c54a8deb87f16bb"
     }
   },
-  "note": "Manifest excludes itself; published tests only adapt the frozen test import. API/CLI are post-evaluation packaging."
+  "note": "Hashes use canonical UTF-8/LF Git file bytes and exclude this manifest. Tests only adapt the frozen import; API/CLI were added after evaluation. v0.1.1 fixes the v0.1.0 working-tree CRLF hash mismatch."
 }
