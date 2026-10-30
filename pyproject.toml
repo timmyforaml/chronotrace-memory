@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chronotrace-memory"
+version = "0.1.0"
+description = "Source-grounded bitemporal state memory with an append-only derived ledger"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "ChronoTrace Memory contributors"}]
+dependencies = []
+keywords = ["memory", "bitemporal", "provenance", "state", "history"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+
+[project.scripts]
+chronotrace = "chronotrace_memory.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/timmyforaml/chronotrace-memory"
+Repository = "https://github.com/timmyforaml/chronotrace-memory"
+Issues = "https://github.com/timmyforaml/chronotrace-memory/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]

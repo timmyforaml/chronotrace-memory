@@ -1,0 +1,93 @@
+{
+  "system": "ChronoTrace Memory",
+  "version": "0.1.0",
+  "frozen_core_sha256": "46be8945a381553fcb42e02ab631fdb890976fb8e0fe66ef3313aace5e4abcd5",
+  "original_test_sha256": "aa8a166240d089cdb87c1d9d06c0e8271b0decf23ce7c0c031ff9a6b2ab4fb58",
+  "release_files": {
+    ".gitattributes": {
+      "bytes": 108,
+      "sha256": "58070a4c99b6aec0e020ded17b2337ef9ee880a526210a7bfa7c4f23a5fb7b20"
+    },
+    ".github/workflows/tests.yml": {
+      "bytes": 490,
+      "sha256": "5ef4071f71bae21faafe1b32a8c1714553604d74d6f539fd822b5015d50f9cb6"
+    },
+    ".gitignore": {
+      "bytes": 271,
+      "sha256": "8f598eee3711ec2ceb8083c1f5e1fa6ce95a47cf11f0e2edd6327cebab6cc92f"
+    },
+    "CHANGELOG.md": {
+      "bytes": 642,
+      "sha256": "a0ad6acfd389e51c1f014cb878447f0a22c388c5f3f0dcaeb77be1673e8e1810"
+    },
+    "LICENSE": {
+      "bytes": 1109,
+      "sha256": "65b5abd136cd2cbc20e3b9019aba3de4002f0a2d5f815dbc87d9406e8b6a585f"
+    },
+    "README.md": {
+      "bytes": 4214,
+      "sha256": "5398504ef02b707e7690aa981272629d719837172b1459440b1e38894c0d61b9"
+    },
+    "docs/COMMIT_AND_RUN_GUIDE.md": {
+      "bytes": 1540,
+      "sha256": "e430eafe27788da18f5a99146a81e66b8fa4b7ad27e870852010b6d5a413aea4"
+    },
+    "docs/PROVENANCE.md": {
+      "bytes": 2415,
+      "sha256": "b76c8916ab26ad886abb3fdb99f813370ceda6af445b34858bbd2d58cdd7c49c"
+    },
+    "docs/RESEARCH_RESULTS.md": {
+      "bytes": 2741,
+      "sha256": "76d1f4ea0169f391adcfaa98156f9d27b56889c11031431e3e77acd3792a0f3f"
+    },
+    "docs/USER_GUIDE.md": {
+      "bytes": 7449,
+      "sha256": "8f1b7cb88e895517f64014c13d091e0bfe953b61c5e3ed796401ccd5cce168e6"
+    },
+    "docs/VALIDATION.md": {
+      "bytes": 1090,
+      "sha256": "b1b70c58c7d236b67cd1752c13356197d320bdd37f40846ee7a8a3200e9c5e20"
+    },
+    "examples/alice.json": {
+      "bytes": 2984,
+      "sha256": "4c9430f10f94309c35f76d96330243ad6a62cccc1bad3cd89113cf1d765461ba"
+    },
+    "examples/demo.py": {
+      "bytes": 1363,
+      "sha256": "a5af6f8c40bd5cc4d29790ecace24924d051cad75cfc7e7596c67a1891495a1a"
+    },
+    "pyproject.toml": {
+      "bytes": 939,
+      "sha256": "827a735a0bddc6c126128c37f72882ea3fdf71709fc12eefc9712546a1cc621c"
+    },
+    "src/chronotrace_memory/__init__.py": {
+      "bytes": 303,
+      "sha256": "245a5bfcd1d8c28b63a2da1a031da94deda565fe74cc5a2300ff3c2fb7fae5ae"
+    },
+    "src/chronotrace_memory/__main__.py": {
+      "bytes": 51,
+      "sha256": "482b8693e2fe6dbd732e3d7961e03827d3efa187bad11d29da188be580ebbeea"
+    },
+    "src/chronotrace_memory/api.py": {
+      "bytes": 6450,
+      "sha256": "59db3aaeb84dd1bb7537dfde28d11bd79da305c07727098cb179f642c117c8ab"
+    },
+    "src/chronotrace_memory/cli.py": {
+      "bytes": 2180,
+      "sha256": "6cf11d89672b3c45f2027865855a88eb2b5e14b1e6bb1c47056d00d18f5437d8"
+    },
+    "src/chronotrace_memory/lifecycle.py": {
+      "bytes": 16301,
+      "sha256": "46be8945a381553fcb42e02ab631fdb890976fb8e0fe66ef3313aace5e4abcd5"
+    },
+    "tests/test_api.py": {
+      "bytes": 4316,
+      "sha256": "9df2195161e9ab8ecfaf3001707486d1fb9312d43eb90b19bbc2c2990680163e"
+    },
+    "tests/test_lifecycle.py": {
+      "bytes": 7944,
+      "sha256": "60e29599121494b928c72d0998c41219ae6209bf30f777d7378e1826808f3dbf"
+    }
+  },
+  "note": "Manifest excludes itself; published tests only adapt the frozen test import. API/CLI are post-evaluation packaging."
+}

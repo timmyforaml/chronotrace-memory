@@ -1,0 +1,111 @@
+{
+  "sources": [
+    {
+      "source_id": "s1",
+      "body": "Alice's home city is Paris from 2026-01-01.",
+      "role": "user",
+      "speaker": "Alice",
+      "recorded_at": "2026-01-10"
+    },
+    {
+      "source_id": "s2",
+      "body": "Alice moved home to Berlin from 2026-04-01.",
+      "role": "user",
+      "speaker": "Alice",
+      "recorded_at": "2026-04-02"
+    },
+    {
+      "source_id": "s3",
+      "body": "Correction: Alice's home city from 2026-01-01 was Lyon; the earlier Paris statement was wrong.",
+      "role": "user",
+      "speaker": "Alice",
+      "recorded_at": "2026-05-01"
+    },
+    {
+      "source_id": "s4",
+      "body": "Alice's work city is Rome from 2026-01-01.",
+      "role": "user",
+      "speaker": "Alice",
+      "recorded_at": "2026-01-05"
+    },
+    {
+      "source_id": "s5",
+      "body": "Bob's home city is Madrid from 2026-01-01.",
+      "role": "user",
+      "speaker": "Bob",
+      "recorded_at": "2026-01-06"
+    }
+  ],
+  "events": [
+    {
+      "source": 0,
+      "entity": "Alice",
+      "attribute": "home_city",
+      "qualifier": "",
+      "value": "Paris",
+      "quote": "Alice's home city is Paris from 2026-01-01.",
+      "valid_from": "2026-01-01",
+      "valid_to": "",
+      "target_quote": "",
+      "kind": "ASSERT",
+      "past_only": false,
+      "cardinality": "single"
+    },
+    {
+      "source": 1,
+      "entity": "Alice",
+      "attribute": "home_city",
+      "qualifier": "",
+      "value": "Berlin",
+      "quote": "Alice moved home to Berlin from 2026-04-01.",
+      "valid_from": "2026-04-01",
+      "valid_to": "",
+      "target_quote": "",
+      "kind": "ASSERT",
+      "past_only": false,
+      "cardinality": "single"
+    },
+    {
+      "source": 2,
+      "entity": "Alice",
+      "attribute": "home_city",
+      "qualifier": "",
+      "value": "Lyon",
+      "quote": "Correction: Alice's home city from 2026-01-01 was Lyon; the earlier Paris statement was wrong.",
+      "valid_from": "",
+      "valid_to": "",
+      "target_quote": "Alice's home city is Paris from 2026-01-01.",
+      "kind": "CORRECT",
+      "past_only": false,
+      "cardinality": "single"
+    },
+    {
+      "source": 3,
+      "entity": "Alice",
+      "attribute": "work_city",
+      "qualifier": "",
+      "value": "Rome",
+      "quote": "Alice's work city is Rome from 2026-01-01.",
+      "valid_from": "2026-01-01",
+      "valid_to": "",
+      "target_quote": "",
+      "kind": "ASSERT",
+      "past_only": false,
+      "cardinality": "single"
+    },
+    {
+      "source": 4,
+      "entity": "Bob",
+      "attribute": "home_city",
+      "qualifier": "",
+      "value": "Madrid",
+      "quote": "Bob's home city is Madrid from 2026-01-01.",
+      "valid_from": "2026-01-01",
+      "valid_to": "",
+      "target_quote": "",
+      "kind": "ASSERT",
+      "past_only": false,
+      "cardinality": "single"
+    }
+  ]
+}
