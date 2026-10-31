@@ -6,6 +6,10 @@ Source-grounded bitemporal state memory, with immutable source snapshots and a s
 
 这是可独立运行的 Python 状态内核与结构化快照查询工具。**当前版本需要显式标注的事件，不包含已验证有效的自动自然语言记忆抽取器。** 运行不需要 GPU、模型、API Key 或网络连接；Python 3.10+，运行时仅用标准库。
 
+## v0.23 在线服务源码
+
+[online/v0.23-contract03](online/v0.23-contract03/README.md) 提供当前独立部署的 Textual Add/Search 服务完整源码包、来源清单、13项接入验收及[完整一段运行指南](online/v0.23-contract03/RUN_GUIDE.zh-CN.md)。原归档38文件保持字节一致，四个新增模块提供派生历史和在线契约；源码包保留上游CRLF。它尚无已证明的最终答案增益，Full尚未提交。下文的离线运行示例和冻结评分均属于v0.1.1，不能当成在线v0.23的成绩。
+
 ## 快速运行
 
 在克隆的仓库目录中执行：

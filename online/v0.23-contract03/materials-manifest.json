@@ -1,0 +1,18 @@
+{
+  "at_utc": "2026-10-31T11:10:40.600210+00:00",
+  "files_sha256": {
+    "ATTRIBUTION.zh-CN.md": "25955595fd794163393807cacb0ebaab0220e2eb3b918c80d479a78812b38e90",
+    "manifest.json": "5585c916fc3d07882e8cffda339b2dbeeb95414682fd0367e238b318cc49393c",
+    "package.json": "923d5be4a21337c4c2a6a40bad972e5718986875665a441c8fe5d78b95f5f60b",
+    "README.md": "21844de3bb0589573485ac64f8c11b522fddc14a4b9bd6893059d83799df6fae",
+    "RUN_GUIDE.zh-CN.md": "ec8bd918c216c3350c3761656e8e78995165dd9ba3995ded82fdad1ab30e1c41",
+    "source.tar.gz": "d3a93e76dec07dde5bf9319189db10c6fb982b507ec24361c13e1d83a915025d",
+    "test_five_requirements.py": "d92702c33eaf968f27e71544a7600ba4f07c64eadcd126bbd01afac1c974c537"
+  },
+  "source_manifest_sha256": "027b67c8fcb81674da70eaac1f8573632c033b95813dc82714d715e640a7fbd1",
+  "raw_manifest_file_sha256": "5585c916fc3d07882e8cffda339b2dbeeb95414682fd0367e238b318cc49393c",
+  "source_archive_files": 43,
+  "known_secret_hits": 0,
+  "Full_submitted": false,
+  "candidate_performance_gain_proven": false
+}
