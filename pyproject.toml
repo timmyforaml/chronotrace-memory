@@ -27,4 +27,4 @@ Repository = "https://github.com/timmyforaml/chronotrace-memory"
 Issues = "https://github.com/timmyforaml/chronotrace-memory/issues"
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["state_engine"]

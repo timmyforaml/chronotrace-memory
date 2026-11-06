@@ -11,7 +11,7 @@ import unittest
 from chronotrace_memory import query_bundle
 
 
-EXAMPLE = Path(__file__).resolve().parents[1] / "examples" / "alice.json"
+EXAMPLE = Path(__file__).resolve().parents[1] / "walkthroughs" / "alice.json"
 
 
 class SnapshotApiTests(unittest.TestCase):

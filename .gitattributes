@@ -1,4 +1,4 @@
-* text=auto
+* text=auto eol=lf
 *.py text eol=lf
 *.md text eol=lf
 *.json text eol=lf
@@ -7,3 +7,7 @@
 
 *.tar.gz binary
 online/v0.23-contract03/** -text whitespace=cr-at-eol
+
+# Keep development metadata hashes stable across Windows and Linux clones.
+.gitignore text eol=lf
+LICENSE text eol=lf

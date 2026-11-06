@@ -25,3 +25,11 @@ datasets/
 models/
 responses/
 request-intents/
+online/v0.23-contract03/source/
+online/v0.23-contract03/source-original/
+
+# Development package build products
+*.egg-info/
+build/
+dist/
+__pycache__/

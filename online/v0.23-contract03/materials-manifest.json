@@ -1,18 +1,33 @@
 {
-  "at_utc": "2026-10-31T11:10:40.600210+00:00",
+  "at_utc": "2026-11-04T13:55:56.904831+00:00",
+  "documentation_revision": "v0.23-runtime-documentation-20261104",
   "files_sha256": {
-    "ATTRIBUTION.zh-CN.md": "25955595fd794163393807cacb0ebaab0220e2eb3b918c80d479a78812b38e90",
+    "README.md": "99dcd2c41743e970e962ba5b97f62e204c9a6a6f6e4623006683bc4735274093",
+    "RUN_GUIDE.zh-CN.md": "74e3e45a3b49c4ddd66c53a66037883851e29d7986125e85694bf5b574656e42",
     "manifest.json": "5585c916fc3d07882e8cffda339b2dbeeb95414682fd0367e238b318cc49393c",
     "package.json": "923d5be4a21337c4c2a6a40bad972e5718986875665a441c8fe5d78b95f5f60b",
-    "README.md": "21844de3bb0589573485ac64f8c11b522fddc14a4b9bd6893059d83799df6fae",
-    "RUN_GUIDE.zh-CN.md": "ec8bd918c216c3350c3761656e8e78995165dd9ba3995ded82fdad1ab30e1c41",
     "source.tar.gz": "d3a93e76dec07dde5bf9319189db10c6fb982b507ec24361c13e1d83a915025d",
-    "test_five_requirements.py": "d92702c33eaf968f27e71544a7600ba4f07c64eadcd126bbd01afac1c974c537"
+    "test_five_requirements.py": "d92702c33eaf968f27e71544a7600ba4f07c64eadcd126bbd01afac1c974c537",
+    "prepare_source.py": "48f0f7c570cb4d1e166dd6c6f7884b6d089f3d3de155d98d6dd7d909aad97e25",
+    "recorded-length-repair/manifest.json": "d932b43225190c649a60e76d751ac969eff79fbe497cefde7e153fd0875b2ae5",
+    "recorded-length-repair/remote_encoder.py": "3959e2d8c8d3d95aa1e92f553bcfe59d8670dd39ed7e2b3a6a274157beea3174"
   },
-  "source_manifest_sha256": "027b67c8fcb81674da70eaac1f8573632c033b95813dc82714d715e640a7fbd1",
-  "raw_manifest_file_sha256": "5585c916fc3d07882e8cffda339b2dbeeb95414682fd0367e238b318cc49393c",
-  "source_archive_files": 43,
-  "known_secret_hits": 0,
-  "Full_submitted": false,
-  "candidate_performance_gain_proven": false
+  "repository_documentation_sha256": {
+    "README.md": "4de826645962095834fc9de82efc49d6ae855170f7b236a9dc9a950b5036bb33",
+    "CHANGELOG.md": "8d82b56d1f9946b9151d75488d7ae64eca2814ff9944c866d4c213f91b8312a5",
+    "docs/API.md": "36f0c20e6fa089cce8880d89cfc3feaa4b38452b2c0e0ba9c896503814fd041f",
+    "docs/DEPLOYMENT.md": "518b1e2c34f818fd7a95f51e4f7c63737830c0482dc9220d95d55a11773d4cb0",
+    "docs/PROVENANCE.md": "bdd2d40489b9d4110c6d018d4d25c9947e0570d6683e5a2fe7e3635545857f0d",
+    "docs/COMMIT_AND_RUN_GUIDE.md": "78f6e5412a2b8ecbeb2b01b4b1736111d133b4a4aab9b79a163c7345370333d8",
+    "docs/RESEARCH_RESULTS.md": "59e538b6617e5502308c637ed75924b8fa8d28f0850af80059306db26f75ed37",
+    "docs/VALIDATION.md": "edf441f709e39659d3be4407ab23a9e87f761e35657d89bb3898fff1cd494317"
+  },
+  "original_archive_source_manifest_sha256": "027b67c8fcb81674da70eaac1f8573632c033b95813dc82714d715e640a7fbd1",
+  "recorded_service_source_manifest_sha256": "4f7aa733e817f906605e6c9ef88c6a5f9e39ef54e5acaa2283e1f6ac997d8429",
+  "submission_status": "Full submitted; confirmed by participant on 2026-11-04",
+  "Full_score_published_in_this_material": false,
+  "candidate_performance_gain_proven": false,
+  "original_archive_unchanged": true,
+  "live_service_modified_by_this_documentation_update": false,
+  "credential_pattern_hits": 0
 }

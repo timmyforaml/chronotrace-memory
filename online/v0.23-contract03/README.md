@@ -1,46 +1,35 @@
-# ChronoTrace Memory v0.23 — online Textual service source candidate
+# ChronoTrace Memory v0.23 · Textual 在线服务
 
-This source candidate is separate from the repository's earlier v0.1.1 offline
-manual-binding state kernel. It is not a proven accuracy improvement. Full has
-not been submitted. The source revision is source-local-extents-01.contract03.
+版本 v0.23，修订 `source-local-extents-01.contract03`，入口 `adaptive_evidence.chronotrace_api:app`。参赛者已提交 Full，最终成绩及公榜状态以平台为准。此服务与根目录 v0.1.1 离线结构化状态内核分别发布。
 
-The complete source archive contains the exact bytes deployed for the candidate,
-including all 38 original Context Weave / SourceTrail 0.32.0 archive files, their
-MIT attribution, four added modules and manifest.json. It contains no credentials,
-database, model, benchmark question, answer or raw research result. Some upstream
-files use CRLF. The compressed archive intentionally preserves those raw bytes;
-normalizing an expanded Git tree would invalidate their provenance hashes.
+## 文件与版本
 
-Use Python 3.12. Create a dedicated source directory and extract source.tar.gz
-there. From that extracted directory install requirements.txt in a private venv.
-Set private MEMORY_API_KEY and DASHSCOPE_API_KEY outside source control, and set
-AE_EMBEDDING_BACKEND=dashscope, AE_EMBEDDING_DIMENSIONS=1024,
-AE_EMBEDDING_BATCH_SIZE=10, AE_MODE=query_document_evidence,
-AE_CONTEXT_CHARS=24000 and a new absolute instance-specific AE_DATABASE.
-Run python -m uvicorn adaptive_evidence.chronotrace_api:app --host 127.0.0.1
---port 18104 --workers 1 --no-access-log behind your authenticated HTTPS service.
+| 文件 | 用途 |
+|---|---|
+| `source.tar.gz`、`manifest.json`、`package.json` | 2026-10-31 原始固定快照，保留原字节及打包时状态 |
+| `recorded-length-repair/remote_encoder.py` | 后续已记录并获用户授权的长度恢复精确副本 |
+| `recorded-length-repair/manifest.json` | 修复后 42 个服务文件 SHA256 清单 |
+| `prepare_source.py` | 仅使用标准库还原及校验文件，生成真实 manifest |
+| `test_five_requirements.py` | 13 项合成契约验收，不调用网络模型 |
 
-To run the 13 synthetic acceptance tests, extract into the adjacent folder named
-source and run python -m unittest discover -s . -p test_five_requirements.py -v.
-They exercise isolation/cross-session retrieval, durable Add before HTTP 200,
-concurrent retry idempotency, legacy request migration, ordered text parts,
-immutable envelopes, returned evidence, schema/auth and response bounds. They use
-a deterministic synthetic encoder and block external network connections.
-From source run python -m unittest discover -s tests -v for 64 upstream checks.
+本目录已提供完整服务复现材料，包含线上使用的运行兼容性修复，核心方法和接口保持 v0.23 一致。发布快照清单为 `027b67c8fcb8…`，默认还原代码清单为 `4f7aa733e817…`，完整哈希见[版本记录](../../docs/PROVENANCE.md)。原包 `Full_submitted: false` 是打包时字段，不表示当前提交状态。
 
-Actual deployment uses text-embedding-v4, no generative memory-service LLM and
-the original 24000-character packer. Final Answer remains the evaluator's job.
-Text parts are retained in an immutable envelope sidecar and joined by LF for
-text retrieval. Image parts are unsupported; this candidate is Textual only.
+## 还原与运行
 
-The state parser is narrow and source-local. A source-relative current/prior
-projection is not proof of globally current or unbounded historical truth.
-The earlier evaluated revision had zero measured state activation and Smoke
-60.6337 and 61.0243. Those scores do not belong to this transport revision, which
-has no own Smoke result at material preparation. Full selection is still under
-review; no permanent local gain or promotion gate has been claimed passed.
+使用 Python 3.12，在本目录执行：
 
-See ATTRIBUTION.zh-CN.md for original author, archive identity and Mem0 reference
-boundaries. Attribution, substantive-submission and integrity declarations remain
-subject to the participant's confirmation. This directory contains source materials; it does not establish that a Full
-evaluation has occurred. The archive is the exact byte-preserving source release.
+```bash
+python3.12 prepare_source.py --output source
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r source/requirements.txt
+```
+
+脚本默认准备包含运行兼容性修复的完整服务代码，拒绝覆盖已有输出目录。如需核对历史发布快照，可使用 `python3.12 prepare_source.py --archive-only --output source-original`。随后按[完整指南](RUN_GUIDE.zh-CN.md)配置私密环境、启动服务、设置 HTTPS 代理并验收。
+
+## 行为与限制
+
+`user_id` 严格隔离，同用户跨会话可查；同步 Add 在持久化及可检索写入后返回 200，以 `(user_id, request_id)` 幂等。Search 返回按优先顺序排列、不超过 `top_k` 的 `data` 证据数组。有序 text 数组原样保存，检索时以 LF 连接；图片不支持。字段与错误见 [API](../../docs/API.md)。
+
+线上使用 `text-embedding-v4`，无生成式 LLM，Answer/Eval 由平台完成。状态解析窄且局限于单条来源，不保证全局最新事实或通用自动更正解析。长度修复前 contract03 Smoke 为 46/46、61.0243，窗口内状态 frame 和 query projection 均为 0；不代表已证明状态收益，也不是修复后 Full 分数。
+
+密钥、数据库、评测数据和模型不发布。源码自带许可证及版权声明保留，数据处理要求见[部署说明](../../docs/DEPLOYMENT.md)。

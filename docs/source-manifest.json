@@ -5,8 +5,8 @@
   "original_test_sha256": "aa8a166240d089cdb87c1d9d06c0e8271b0decf23ce7c0c031ff9a6b2ab4fb58",
   "release_files": {
     ".gitattributes": {
-      "bytes": 102,
-      "sha256": "95ad2c1af788bbcbde1d79c87942e2257a1939105a308200f80216c2b45a65ba"
+      "bytes": 173,
+      "sha256": "b533731a1e39581bd9a0811f34f6d801cd3c75a5a0e1a107b46f71a8a78dfe80"
     },
     ".github/workflows/tests.yml": {
       "bytes": 472,
@@ -17,32 +17,32 @@
       "sha256": "876bfda3bcbe3a26d041e9cf1c39416eec31354a773550d036887e16fc0a7fd0"
     },
     "CHANGELOG.md": {
-      "bytes": 898,
-      "sha256": "50ef512b2134ad447a6796b83a1927bf02d4ab32c97a2407d823524cb16e005f"
+      "bytes": 1253,
+      "sha256": "a23ede4e5dcda57b00219de2e89850cb173045e4afae90762621ea7b4935fb1e"
     },
     "LICENSE": {
       "bytes": 1088,
       "sha256": "8e0364ea0341fdcc763f8c1238c9d43014be69d2f424949608e91a72ce919d2f"
     },
     "README.md": {
-      "bytes": 4155,
-      "sha256": "5376c85c993a830b0fe19ef4e49ab5cc1a6f9f88032e6604c55dab991717a1a6"
+      "bytes": 4410,
+      "sha256": "199bf23d1ec8ede9743ccf8954eecab7fb12d0cffa7592e82b931a5503cf4e84"
     },
     "docs/COMMIT_AND_RUN_GUIDE.md": {
-      "bytes": 1611,
-      "sha256": "5e64916105fa4f95cb062e2555fb7d60a41807ccc6582ed771b92b34ea25e653"
+      "bytes": 1399,
+      "sha256": "1278930156dbb49e587a6d1dff7e2d52e54fef480f9318296d45ad0c6fc648aa"
     },
     "docs/PROVENANCE.md": {
-      "bytes": 2691,
-      "sha256": "220338742570122272fe3317ff1361481a22d2cf633656244f61778b0bb3c996"
+      "bytes": 138,
+      "sha256": "f8d57ec64f748520a0a75771931d3e4bd401a3f746cdfcec4e4573a65925ec47"
     },
     "docs/RESEARCH_RESULTS.md": {
-      "bytes": 2716,
-      "sha256": "7e023c2e980e63aa4262248a76888507465c26295b0144a31ca988c1b3ec8e7f"
+      "bytes": 2741,
+      "sha256": "b5832e79c11085856057182d1f9060dfd6fdbc78203633f9c530c23d219f9cad"
     },
     "docs/USER_GUIDE.md": {
-      "bytes": 7319,
-      "sha256": "a8c7f883fc0b0d3ccb78cc824895b7516e6b69340eff0a4ab459dcb57d50d427"
+      "bytes": 7318,
+      "sha256": "ce3e3f40dd2a904de381102f3292d43894c721be213ade78a6e5a8bdd9a1e5b3"
     },
     "docs/VALIDATION.md": {
       "bytes": 1325,
@@ -89,5 +89,6 @@
       "sha256": "323cf333cb81001819caf314cfa9ddc29608e3a01b350b977c54a8deb87f16bb"
     }
   },
-  "note": "Hashes use canonical UTF-8/LF Git file bytes and exclude this manifest. Tests only adapt the frozen import; API/CLI were added after evaluation. v0.1.1 fixes the v0.1.0 working-tree CRLF hash mismatch."
+  "note": "Hashes describe current Git file bytes and exclude this manifest. Documentation statements withdrawn pending author revision; executable code unchanged.",
+  "source_disclosure_status": "pending_author_revision"
 }
